@@ -1,0 +1,41 @@
+baseURL = 'https://properpanda.github.io/treysguitarrug/'
+languageCode = 'en-us'
+title = "Trey's Guitar Rug"
+theme = 'PaperMod'
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
+[params]
+  description = "A deep dive on the rugs that Trey Anastasio uses when Phish tours."
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.homeInfoParams]
+    Title = "Trey's Guitar Rug"
+    Content = "Exploring every rug that has graced the stage beneath Trey Anastasio's feet."
+
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 5
+
+[[menu.main]]
+  name = 'Tags'
+  url = '/tags/'
+  weight = 10
+
+[[menu.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 15
