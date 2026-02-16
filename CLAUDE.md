@@ -33,7 +33,7 @@ git submodule update --init --recursive
 
 Automated via GitHub Actions on push to `main`. The workflow builds the site and deploys to GitHub Pages.
 
-Site URL: https://properpanda.github.io/treysguitarrug/
+Site URL: https://treysguitarrug.com/
 
 ## Content
 
