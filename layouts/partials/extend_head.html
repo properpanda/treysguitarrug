@@ -1,0 +1,33 @@
+<style>
+.home-info-bg {
+    background-image: url('/images/treys-rug1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-info-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: inherit;
+}
+
+.home-info-bg .entry-header,
+.home-info-bg .entry-content,
+.home-info-bg .entry-footer {
+    position: relative;
+    z-index: 1;
+}
+
+.home-info-bg .entry-header h1,
+.home-info-bg .entry-content {
+    color: #fff;
+}
+</style>

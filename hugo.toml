@@ -9,7 +9,8 @@ theme = 'PaperMod'
 
 [params]
   description = "A deep dive on the rugs that Trey Anastasio uses when Phish tours."
-  defaultTheme = 'auto'
+  defaultTheme = 'dark'
+  disableThemeToggle = true
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
